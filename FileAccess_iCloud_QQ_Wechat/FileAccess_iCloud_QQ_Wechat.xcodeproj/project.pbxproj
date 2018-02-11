@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F52EDAC1F2AD81700EC83A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52EDAB1F2AD81700EC83A3 /* main.m */; };
+		3F52EDAF1F2AD81700EC83A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52EDAE1F2AD81700EC83A3 /* AppDelegate.m */; };
+		3F52EDB21F2AD81700EC83A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52EDB11F2AD81700EC83A3 /* ViewController.m */; };
+		3F52EDB51F2AD81700EC83A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F52EDB31F2AD81700EC83A3 /* Main.storyboard */; };
+		3F52EDB71F2AD81700EC83A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F52EDB61F2AD81700EC83A3 /* Assets.xcassets */; };
+		3F52EDBA1F2AD81700EC83A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F52EDB81F2AD81700EC83A3 /* LaunchScreen.storyboard */; };
+		3F52EDC31F2ADA3100EC83A3 /* iCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52EDC21F2ADA3100EC83A3 /* iCloudManager.m */; };
+		3F52EDC61F2ADBBA00EC83A3 /* ZHDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52EDC51F2ADBBA00EC83A3 /* ZHDocument.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F52EDA71F2AD81700EC83A3 /* FileAccess_iCloud_QQ_Wechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileAccess_iCloud_QQ_Wechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F52EDAB1F2AD81700EC83A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F52EDAD1F2AD81700EC83A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F52EDAE1F2AD81700EC83A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F52EDB01F2AD81700EC83A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F52EDB11F2AD81700EC83A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F52EDB41F2AD81700EC83A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F52EDB61F2AD81700EC83A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F52EDB91F2AD81700EC83A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F52EDBB1F2AD81700EC83A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F52EDC11F2ADA3100EC83A3 /* iCloudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCloudManager.h; sourceTree = "<group>"; };
+		3F52EDC21F2ADA3100EC83A3 /* iCloudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCloudManager.m; sourceTree = "<group>"; };
+		3F52EDC41F2ADBBA00EC83A3 /* ZHDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDocument.h; sourceTree = "<group>"; };
+		3F52EDC51F2ADBBA00EC83A3 /* ZHDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDocument.m; sourceTree = "<group>"; };
+		3F52EDC71F2ADF5C00EC83A3 /* FileAccess_iCloud_QQ_Wechat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FileAccess_iCloud_QQ_Wechat.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F52EDA41F2AD81700EC83A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F52ED9E1F2AD81700EC83A3 = {
+			isa = PBXGroup;
+			children = (
+				3F52EDA91F2AD81700EC83A3 /* FileAccess_iCloud_QQ_Wechat */,
+				3F52EDA81F2AD81700EC83A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F52EDA81F2AD81700EC83A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F52EDA71F2AD81700EC83A3 /* FileAccess_iCloud_QQ_Wechat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F52EDA91F2AD81700EC83A3 /* FileAccess_iCloud_QQ_Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				3F52EDC71F2ADF5C00EC83A3 /* FileAccess_iCloud_QQ_Wechat.entitlements */,
+				3F52EDAD1F2AD81700EC83A3 /* AppDelegate.h */,
+				3F52EDAE1F2AD81700EC83A3 /* AppDelegate.m */,
+				3F52EDB01F2AD81700EC83A3 /* ViewController.h */,
+				3F52EDB11F2AD81700EC83A3 /* ViewController.m */,
+				3F52EDC11F2ADA3100EC83A3 /* iCloudManager.h */,
+				3F52EDC21F2ADA3100EC83A3 /* iCloudManager.m */,
+				3F52EDC41F2ADBBA00EC83A3 /* ZHDocument.h */,
+				3F52EDC51F2ADBBA00EC83A3 /* ZHDocument.m */,
+				3F52EDB31F2AD81700EC83A3 /* Main.storyboard */,
+				3F52EDB61F2AD81700EC83A3 /* Assets.xcassets */,
+				3F52EDB81F2AD81700EC83A3 /* LaunchScreen.storyboard */,
+				3F52EDBB1F2AD81700EC83A3 /* Info.plist */,
+				3F52EDAA1F2AD81700EC83A3 /* Supporting Files */,
+			);
+			path = FileAccess_iCloud_QQ_Wechat;
+			sourceTree = "<group>";
+		};
+		3F52EDAA1F2AD81700EC83A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F52EDAB1F2AD81700EC83A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F52EDA61F2AD81700EC83A3 /* FileAccess_iCloud_QQ_Wechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F52EDBE1F2AD81700EC83A3 /* Build configuration list for PBXNativeTarget "FileAccess_iCloud_QQ_Wechat" */;
+			buildPhases = (
+				3F52EDA31F2AD81700EC83A3 /* Sources */,
+				3F52EDA41F2AD81700EC83A3 /* Frameworks */,
+				3F52EDA51F2AD81700EC83A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileAccess_iCloud_QQ_Wechat;
+			productName = FileAccess_iCloud_QQ_Wechat;
+			productReference = 3F52EDA71F2AD81700EC83A3 /* FileAccess_iCloud_QQ_Wechat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F52ED9F1F2AD81700EC83A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zzh;
+				TargetAttributes = {
+					3F52EDA61F2AD81700EC83A3 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = PN86PF6BBW;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3F52EDA21F2AD81700EC83A3 /* Build configuration list for PBXProject "FileAccess_iCloud_QQ_Wechat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F52ED9E1F2AD81700EC83A3;
+			productRefGroup = 3F52EDA81F2AD81700EC83A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F52EDA61F2AD81700EC83A3 /* FileAccess_iCloud_QQ_Wechat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F52EDA51F2AD81700EC83A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F52EDBA1F2AD81700EC83A3 /* LaunchScreen.storyboard in Resources */,
+				3F52EDB71F2AD81700EC83A3 /* Assets.xcassets in Resources */,
+				3F52EDB51F2AD81700EC83A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F52EDA31F2AD81700EC83A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F52EDB21F2AD81700EC83A3 /* ViewController.m in Sources */,
+				3F52EDC31F2ADA3100EC83A3 /* iCloudManager.m in Sources */,
+				3F52EDAF1F2AD81700EC83A3 /* AppDelegate.m in Sources */,
+				3F52EDAC1F2AD81700EC83A3 /* main.m in Sources */,
+				3F52EDC61F2ADBBA00EC83A3 /* ZHDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F52EDB31F2AD81700EC83A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F52EDB41F2AD81700EC83A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F52EDB81F2AD81700EC83A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F52EDB91F2AD81700EC83A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F52EDBC1F2AD81700EC83A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F52EDBD1F2AD81700EC83A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F52EDBF1F2AD81700EC83A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FileAccess_iCloud_QQ_Wechat/FileAccess_iCloud_QQ_Wechat.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PN86PF6BBW;
+				INFOPLIST_FILE = FileAccess_iCloud_QQ_Wechat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zzh.FileAccess-iCloud-QQ-Wechat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		3F52EDC01F2AD81700EC83A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FileAccess_iCloud_QQ_Wechat/FileAccess_iCloud_QQ_Wechat.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PN86PF6BBW;
+				INFOPLIST_FILE = FileAccess_iCloud_QQ_Wechat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zzh.FileAccess-iCloud-QQ-Wechat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F52EDA21F2AD81700EC83A3 /* Build configuration list for PBXProject "FileAccess_iCloud_QQ_Wechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F52EDBC1F2AD81700EC83A3 /* Debug */,
+				3F52EDBD1F2AD81700EC83A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F52EDBE1F2AD81700EC83A3 /* Build configuration list for PBXNativeTarget "FileAccess_iCloud_QQ_Wechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F52EDBF1F2AD81700EC83A3 /* Debug */,
+				3F52EDC01F2AD81700EC83A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F52ED9F1F2AD81700EC83A3 /* Project object */;
+}
