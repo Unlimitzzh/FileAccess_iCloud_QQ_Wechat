@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9T-0Q-7xo">
+                                <rect key="frame" x="123" y="198" width="131" height="30"/>
+                                <state key="normal" title="FileAccessFromQQ"/>
+                                <connections>
+                                    <action selector="fileAccessFromQQ:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xWb-G2-cF6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWY-Em-SuV">
+                                <rect key="frame" x="109" y="258" width="159" height="30"/>
+                                <state key="normal" title="FileAccessFromWechat"/>
+                                <connections>
+                                    <action selector="fileAccessFromWechat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v2v-kQ-XSs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fQ-V1-wJ3">
+                                <rect key="frame" x="112" y="318" width="152" height="30"/>
+                                <state key="normal" title="FileAccessFromiCloud"/>
+                                <connections>
+                                    <action selector="fileAccessFromiCloud:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Fy-Du-u4q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PWY-Em-SuV" firstAttribute="top" secondItem="j9T-0Q-7xo" secondAttribute="bottom" constant="30" id="4Dw-Jq-si8"/>
+                            <constraint firstItem="0fQ-V1-wJ3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4vr-H8-Z1x"/>
+                            <constraint firstItem="0fQ-V1-wJ3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IRh-iZ-wWB"/>
+                            <constraint firstItem="PWY-Em-SuV" firstAttribute="centerX" secondItem="0fQ-V1-wJ3" secondAttribute="centerX" id="NdA-RE-QXV"/>
+                            <constraint firstItem="0fQ-V1-wJ3" firstAttribute="top" secondItem="PWY-Em-SuV" secondAttribute="bottom" constant="30" id="ODV-w9-ua2"/>
+                            <constraint firstItem="j9T-0Q-7xo" firstAttribute="centerX" secondItem="0fQ-V1-wJ3" secondAttribute="centerX" id="spA-8z-G5O"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
